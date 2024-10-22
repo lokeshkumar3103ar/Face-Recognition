@@ -32,10 +32,11 @@ pip install opencv-python numpy pillow pynput
    ```
 2. Navigate to the project directory.
 3. Ensure you have the required libraries installed (see Requirements).
-4. Place your Haar cascade file (`haarcascade_frontalface_default.xml`) in the project directory.
-5. Prepare your dataset by running the `creator` script to capture face samples.
-6. Train the model using the `trainer` script.
-7. Run the `homesecurity` script to start the face recognition and alert system.
+4. Create folders named dataSet and trainner.
+5. Place your Haar cascade file (`haarcascade_frontalface_default.xml`) in the project directory.
+6. Prepare your dataset by running the `creator` script to capture face samples.
+7. Train the model using the `trainer` script.
+8. Run the `homesecurity` script to start the face recognition and alert system.
 
 ## Scripts
 - **creator.py**: Captures face samples from the webcam and stores them in a dataset folder.
